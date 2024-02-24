@@ -9,6 +9,7 @@ const Translator = () => {
     const [loading, setLoading] = useState(false);
     const [translatedText, setTranslatedText] = useState("");
     axios.defaults.withCredentials = true;
+
     const translator = async () => {
         setLoading(true)
         try {
